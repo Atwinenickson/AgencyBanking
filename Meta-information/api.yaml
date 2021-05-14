@@ -1,0 +1,83 @@
+id:
+  providerName: admin
+  apiName: AgencyAPI
+  version: 1.0.0
+  id: 0
+uuid: 945d182e-aee7-450d-9450-5102753b51de
+type: HTTP
+context: /agencyapi/1.0.0
+contextTemplate: /agencyapi/{version}
+tags: []
+documents: []
+lastUpdated: May 14, 2021 9:31:14 AM
+availableTiers:
+ -
+  name: Unlimited
+  displayName: Unlimited
+  description: Allows unlimited requests
+  requestsPerMin: 2147483647
+  requestCount: 2147483647
+  unitTime: 0
+  timeUnit: ms
+  tierPlan: FREE
+  stopOnQuotaReached: true
+availableSubscriptionLevelPolicies: []
+apiLevelPolicy: Unlimited
+uriTemplates: []
+apiHeaderChanged: false
+apiResourcePatternsChanged: false
+status: PUBLISHED
+visibility: public
+gatewayLabels: []
+endpointSecured: false
+endpointAuthDigest: false
+transports: http,https
+advertiseOnly: false
+subscriptionAvailability: current_tenant
+corsConfiguration:
+  corsConfigurationEnabled: false
+  accessControlAllowOrigins:
+   - '*'
+  accessControlAllowCredentials: false
+  accessControlAllowHeaders:
+   - authorization
+   - Access-Control-Allow-Origin
+   - Content-Type
+   - SOAPAction
+   - apikey
+   - testKey
+  accessControlAllowMethods:
+   - GET
+   - PUT
+   - POST
+   - DELETE
+   - PATCH
+   - OPTIONS
+endpointConfig: '{"endpoint_type":"http","sandbox_endpoints":{"url":"http:\/\/ei.dev.bracbank.local\/agency-banking-api\/v1"},"production_endpoints":{"url":"http:\/\/ei.dev.bracbank.local\/agency-banking-api\/v1"}}'
+responseCache: Disabled
+cacheTimeout: 300
+implementation: ENDPOINT
+authorizationHeader: Authorization
+scopes: []
+isDefaultVersion: false
+isPublishedDefaultVersion: false
+keyManagers:
+ - all
+environments:
+ - Production and Sandbox
+createdTime: "1620973543774"
+additionalProperties: {}
+monetizationProperties: {}
+isMonetizationEnabled: false
+environmentList:
+ - SANDBOX
+ - PRODUCTION
+apiSecurity: oauth_basic_auth_api_key_mandatory,basic_auth
+endpoints: []
+enableSchemaValidation: false
+apiCategories: []
+enableStore: true
+testKey: d3a8d7c3-933a-4c7a-adc4-757155c525d7
+accessControl: all
+rating: 0.0
+isLatest: true
