@@ -4,7 +4,7 @@ pipeline {
     environment {
         CI = 'true'
         API_DIR = '/var/lib/jenkins/workspace/AGENCY'
-        DEV_ENV = 'dev'
+        DEV_ENV = 'agency-dev'
     }
     stages {
         stage('Preparation') {
