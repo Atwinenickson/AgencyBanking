@@ -10,7 +10,7 @@ pipeline {
         stage('Preparation') {
             steps{
                 git branch: "master",
-                url: 'http://192.168.0.82:4000/nickson/agency-apim',
+                url: 'https://github.com/Atwinenickson/AgencyBanking.git',
                 credentialsId: 'root'
             }
         }
